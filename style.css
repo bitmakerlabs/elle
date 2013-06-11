@@ -1,0 +1,111 @@
+body {
+	width: intrinsic;
+	margin: 5px auto;
+}
+
+a {
+	color: black;
+	text-decoration: none;	
+}
+
+.metaNav {
+	font-size: 11px;
+	font-style: italic;
+}
+
+.siteNavigation, .siteLinks, footer {
+	font-size: 13px;
+}
+
+h4 {
+	text-transform: uppercase;
+	padding-bottom: 5px;
+	border-bottom: 1px #CCC solid;
+	margin-bottom: 0px;
+}
+
+a:hover {
+	color: red;
+}
+
+.metaLinks, .hdmLoginLinks, .navList, .siteLinks ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+.siteLinks li {
+	margin: 10px 0;
+}
+
+.metaLinks li, .hdmLoginLinks li, .navList li {
+	display: inline;
+}
+
+.metaNav, .siteNavigation {
+	text-transform: uppercase;
+}
+
+.metaNav ul {
+	margin-top: 0;
+}
+
+.metaLinks {
+	float: left;
+}
+
+.hdmLoginLinks {
+	float: right;
+}
+
+.navList {
+	border-top: 1px black solid;
+	border-bottom: 1px #CCC solid;
+	padding-top: 9px;
+	padding-bottom: 9px;
+}
+
+.navList span {
+	float: right;
+}
+
+.metaLinks li + li, .hdmLoginLinks li + li, .navList li + li {
+	border-left: 1px #CCC solid;
+	padding-right: 7px;
+	padding-left: 7px;
+}
+
+.g-3 {
+	float: left;
+	margin-bottom: 20px;
+}
+
+.g-3 ~ .g-3 {
+	margin-left: 25px;
+}
+
+.logoContainer {
+	clear: both;
+}
+
+.logoContainer img {
+	display: block;
+	margin: 0 auto;
+}
+
+.content {
+	height: 300px;
+	width: 100%;
+}
+
+footer {
+	clear: both;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.black_bar {
+	margin: 10px 0;
+	width: 100%;
+	height: 50px;
+	background-color: black;
+}
